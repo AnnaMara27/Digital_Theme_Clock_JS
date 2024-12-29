@@ -86,8 +86,8 @@ body.dark .icons {
 }
 
 body.dark .time-container,
-.day-container,
-.date-container {
+body.dark .day-container,
+body.dark .date-container {
   background-color: var(--dark-color);
   border: 1px solid var(--grey-color);
 }
