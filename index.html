@@ -12,10 +12,30 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Digital Theme Clock</title>
   </head>
-  <body>
-    <h1>Project Starter</h1>
+  <body class="dark">
+    <div class="container">
+      <div class="icons">
+        <i class="fa-regular fa-sun"></i>
+        <i class="fa-regular fa-moon hidden"></i>
+      </div>
+      <div class="time-container">
+        <p>
+          <span id="hours">10</span> : <span id="minutes">45</span> :
+          <span id="seconds">14</span> <span id="am-pm" class="am-pm">PM</span>
+        </p>
+      </div>
+
+      <div class="day-container">
+        <p id="day">Thursday</p>
+      </div>
+
+      <div class="date-container">
+        <p><span id="month">Dec</span> <span id="date">28</span></p>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
